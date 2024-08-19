@@ -1,0 +1,88 @@
+* {
+    padding: 0.5%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: inherit;
+    border: 0.1rem  green;
+}
+body {
+    background: rgb(17, 17, 17);
+    padding: 0%;
+    border: 0%;
+    margin: 0%;
+    color: orange;
+    text-align: center;
+}
+header{
+    padding: 0%;
+    border: 0.1rem solid brown;
+}
+img {
+    display: block;
+    margin: 0.1% auto;
+    border-radius: 40%;
+    object-fit: cover;
+    border: solid purple;
+    padding: 0%;
+}
+form {
+    text-align: center;
+    border: 4px solid black;
+    color: white;
+    
+}
+nav {
+    background-color: rgb(1, 31, 1);
+    color: red;
+}
+nav a {
+    color: red;
+    text-decoration: none;
+    border-left: solid red;
+    border-right: solid red;
+}
+ul {
+    list-style: none;
+}
+h1, h2, h3 {
+    text-decoration: underline darkred;
+}
+section {
+    border: red solid;
+}
+input, option, select {
+    color: red;
+    border: solid rgba(133, 110, 110, 0.781);
+}
+button {
+    float: center;
+    border: solid rgb(30, 104, 30);
+    color: rgb(243, 239, 21);
+}
+.bootcamp-select {
+    max-width: 50%;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* CSS rules for extra small screens */
+  }
+   
+  /* Small devices (portrait tablets and large phones, 600px to 768px) */
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* CSS rules for small screens */
+  }
+   
+  /* Medium devices (landscape tablets, 768px to 992px) */
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    /* CSS rules for medium screens */
+  }
+   
+  /* Large devices (laptops/desktops, 992px to 1200px) */
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+    /* CSS rules for large screens */
+  }
+   
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media only screen and (min-width: 1201px) {
+    /* CSS rules for extra large screens */
+  }
